@@ -1,10 +1,12 @@
 div.flexcontainer
 {
   background-color:purple;
-  display:flex;
-  flex-direction:row;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
   flex-wrap:nowrap;
-  justify-content:space-between;
+  justify-content:space-around;
   align-items:center;
   align-content:space-between;
 }
@@ -12,17 +14,17 @@ div.who
 {
   background-color:yellow;
   order:1;
-  flex-grow:1;
-  flex-shrink:1;
-  width:50%;
+  flex:3;
+  margin-right:3%;
+  padding:1%;
 }
 div.skills
 {
   background-color:teal;
   order:2;
-  flex-grow:1;
-  flex-shrink:1;
-  width:20%;
+  flex:1;
+  margin-left:3%;
+  padding:2%;
 }
 div.floater
 {
@@ -45,4 +47,28 @@ img.doe
 img.splash
 {
   width:calc(75%);
+}
+nav div
+{
+  background-color:red;
+}
+div#blue
+{
+  background-color:blue;
+}
+div#green
+{
+  background-color:green;
+}
+a[href=""]
+{
+  color:blue;
+}
+section.clients figure
+{
+  display:inline-block;
+}
+footer small
+{
+  display:block;
 }
