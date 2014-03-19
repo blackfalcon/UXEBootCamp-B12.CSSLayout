@@ -1,0 +1,42 @@
+.m-header-border {
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+footer {
+  margin-top: 4em;
+  background-color: grey;
+  width: 100%;
+  height: 8em;
+}
+
+footer h1 {
+  margin-left: calc(62% / 2);
+}
+
+footer p {
+  float: right;
+}
+
+
+.m-flex-container {
+  display: -webkit-flex;
+  justify-content: center;
+  width: 100%;
+  height: 240px;
+
+}
+
+.flex-item {
+  background-color: rgb(235, 239, 240);
+  width: 100%;
+  height: auto;
+  margin: 6px;
+}
+
+.m-tigerImages img {
+  width: 30%;
+  height: 30%;
+  margin: 1em;
+  float: right;
+}
