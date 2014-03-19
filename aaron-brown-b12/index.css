@@ -1,0 +1,48 @@
+div.flexcontainer
+{
+  background-color:purple;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:space-between;
+  align-items:center;
+  align-content:space-between;
+}
+div.who
+{
+  background-color:yellow;
+  order:1;
+  flex-grow:1;
+  flex-shrink:1;
+  width:50%;
+}
+div.skills
+{
+  background-color:teal;
+  order:2;
+  flex-grow:1;
+  flex-shrink:1;
+  width:20%;
+}
+div.floater
+{
+  float:left;
+  width:30%;
+  margin:5px;
+  padding:10px;
+  background-color:red;
+}
+div.floatcontainer
+{
+  float:left;
+  width:100%;
+  background-color:blue;
+}
+img.doe
+{
+  width:calc(80%);
+}
+img.splash
+{
+  width:calc(75%);
+}
