@@ -9,9 +9,9 @@ The second part of this assignment is to begin applying the presentation to the 
 #### Concepts to illustrate:
 
 1. Use if a Grid system
-2. Understanding of the box model and appropriate uses 
+2. Understanding of the box model and appropriate uses
 3. Use of efficient selectors
-4. Example cases of attribute selectors 
+4. Example cases of attribute selectors
 5. Without relying on the grid solution, use examples of floats with a clearfix
 6. Advanced positioning (relative vs absolute)
 7. Examples of inline-block
@@ -25,7 +25,7 @@ The second part of this assignment is to begin applying the presentation to the 
 
 ## Resources
 
-[Code Guide by @mdo](http://mdo.github.io/code-guide/)
+[Code Guide by @mdo](http://mdo.github.io/code-guide/)  
 [SMACSS](http://smacss.com/)
 
 ****

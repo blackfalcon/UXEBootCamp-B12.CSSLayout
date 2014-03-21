@@ -14,8 +14,55 @@
 	#Media Queries
 	#Font-Face */
 
+/*	#Colors */
+
 /* #Site Styles
 ================================================== */
+html {
+	font-size: 1em;
+	line-height: 1;
+}
+body {
+	font-size: 100%;
+	background: #333;
+}
+
+.wrap {
+	background: #eeefda;
+}
+/*Tyler, notice I am overriding the base.css HTML & BODY font properties above.  */
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* This box model should not impact the grid. Still testing that */
+
+.main-header {
+	background: teal;
+}
+
+
+.main-content {
+	background: pink;
+}
+
+.main-header h1 {
+	text-align: center;
+}
+
+.footer   {
+	background: #222;
+}
+
+.bios {
+	background: red;
+}
+
+
+
 
 /* #Page Styles
 ================================================== */
