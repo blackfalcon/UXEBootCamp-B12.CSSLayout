@@ -14,80 +14,98 @@
 	#Media Queries
 	#Font-Face */
 
+@import url(http://fonts.googleapis.com/css?family=Sansita+One);
+
 /*	#Colors */
 
 /* #Site Styles
 ================================================== */
+
 html {
 	font-size: 1em;
 	line-height: 1;
 }
 body {
 	font-size: 100%;
-	background: #333;
+	background: url(../images/tactile@2X.png) #333;
 }
-
 .wrap {
 	background: #eeefda;
 }
 /*Tyler, notice I am overriding the base.css HTML & BODY font properties above.  */
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
 /* This box model should not impact the grid. Still testing that */
 
 .main-header {
 	background: teal;
+	padding: 1em;
+	margin: 1em 0;
 }
 
-
-.main-content {
-	background: pink;
+.main-header h1 a {
+	font-size: 1.5em;
+	color: #FF6F69;
+	text-decoration: none;
 }
-
-.main-header h1 {
+h1,
+h2,
+h3{
+	font-family: 'Sansita One', cursive;
 	text-align: center;
 }
 
-.footer   {
-	background: #222;
-}
+nav a {
+	display: inline-block;
+  line-height: 2em;
+  padding: 0 0.5em;
+  text-decoration: none;
 
+ 
+}
+ul,
+li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.footer {
+	background: teal;
+}
 .bios {
-	background: red;
+	background: teal;
 }
-
-
-
-
 /* #Page Styles
 ================================================== */
+
 
 /* #Media Queries
 ================================================== */
 
-	/* Smaller than standard 960 (devices and browsers) */
-	@media only screen and (max-width: 959px) {}
+/* Smaller than standard 960 (devices and browsers) */
 
-	/* Tablet Portrait size to standard 960 (devices and browsers) */
-	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+@media only screen and (max-width: 959px) {}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
 
-	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {}
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+/* All Mobile Sizes (devices and browser) */
 
-	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 
-	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 
-
+@media only screen and (max-width: 479px) {}
 /* #Font-Face
 ================================================== */
+
 /* 	This is the proper syntax for an @font-face file
 		Just create a "fonts" folder at the root,
 		copy your FontName into code below and remove
