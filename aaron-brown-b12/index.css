@@ -1,0 +1,61 @@
+.flexcontainer {
+  background-color:purple;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content:space-around;
+  align-items:center;
+  align-content:space-between;
+}
+.who-we-are {
+  background-color:yellow;
+  order:1;
+  flex:2;
+  margin-right:1em;
+  padding:0.2em;
+}
+.skills {
+  background-color:teal;
+  order:2;
+  flex:1;
+  margin-left:1em;
+  padding:0.2em;
+}
+.teammember {
+  float:left;
+  width:30%;
+  margin:0.3em;
+  padding:0.7em;
+  background-color:red;
+}
+.ourteam {
+  float:left;
+  width:100%;
+  background-color:blue;
+}
+.doe {
+  width:80%;
+}
+.splash {
+  width:75%;
+}
+nav div {
+  background-color:red;
+}
+.blue {
+  background-color:blue;
+}
+.green {
+  background-color:green;
+}
+a[href=""] {
+  color:blue;
+}
+.clients figure {
+  display:inline-block;
+}
+footer small {
+  display:block;
+}
